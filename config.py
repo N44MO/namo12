@@ -3,9 +3,9 @@ from os import getenv
 API_ID = int(getenv("API_ID", "6435225")) #optional
 API_HASH = getenv("API_HASH", "") #optional
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = int(getenv("OWNER_ID", ""))
-MONGO_URL = getenv("MONGO_URL")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5810901257").split()))
+OWNER_ID = int(getenv("OWNER_ID", "5810901257")) #ur id
+MONGO_URL = getenv("MONGO_URL") # an database
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 ALIVE_PIC = getenv("ALIVE_PIC")
 ALIVE_TEXT = getenv("ALIVE_TEXT")
